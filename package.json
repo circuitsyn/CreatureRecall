@@ -4,8 +4,11 @@
   "private": true,
   "homepage": "https://circuitsyn.github.io/CreatureRecall",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "gh-pages": "^2.0.1",
+    "jquery": "^3.3.1",
     "npm": "^6.5.0",
+    "popper.js": "^1.14.6",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2"
