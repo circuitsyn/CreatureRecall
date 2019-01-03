@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Jumbo(props) {
     console.log(props);
@@ -7,8 +8,8 @@ function Jumbo(props) {
     <div>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h1 class="display-4">Fluid jumbotron</h1>
-                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                <h1 class="display-4">Creature Recall</h1>
+                <p class="lead">Try for a high score. All you need to do is click on each unique creature without repeating. Can you click them all without making a mistake? Lets see!</p>
             </div>
         </div>
     </div>    

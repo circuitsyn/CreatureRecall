@@ -1,0 +1,9 @@
+.jumbotron {
+    background-color: #0063B6;
+    color: white;
+    border-bottom-style: white 2px;
+}
+
+.lead, .display-4 {
+    font-weight: bolder;
+}
