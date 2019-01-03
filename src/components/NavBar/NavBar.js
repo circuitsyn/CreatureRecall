@@ -1,31 +1,26 @@
 import React from "react";
+import "./style.css";
+import brandLogo from "./Crab.png";
 
 function NavBar(props) {
     console.log(props);
 
     return (
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-                </ul>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand font-weight-bolder" href="/">
+            <img class="brandLogo mr-2" src={brandLogo} alt="nav bar brand logo crab image" />
+            Creature Recall
+            </a>
+
+            <div class="float-right d-flex justify-content-end">
+                <h3 class="ml-2 mr-2">Score: </h3>
+                <button type="button" class="btn btn-primary ml-2 mr-2 font-weight-bolder">0</button>
+                <h3 class="ml-2 mr-2">|</h3>
+                <h3 class="ml-2 mr-2">Top Score: </h3>
+                <button type="button" class="btn btn-primary ml-2 mr-2 font-weight-bolder">0</button>
             </div>
+            
         </nav>
     </div>    
     );

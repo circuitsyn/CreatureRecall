@@ -6,7 +6,7 @@ function Main(props) {
 
     return (
     <div>
-        
+       
     </div>    
     );
 }
