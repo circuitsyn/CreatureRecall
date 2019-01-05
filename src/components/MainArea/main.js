@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import Card from "../Card/card";
+import CardComponents from "../CardComponents/CardComponents";
+
 //import json array
 //function that loops 
 // function shuffle(){
@@ -12,10 +13,8 @@ import Card from "../Card/card";
 function Main(props) {
     console.log(props);
 
-    return (
-    <div>
-       <Card />
-    </div>    
+    return (      
+       <CardComponents  />
     );
 }
 

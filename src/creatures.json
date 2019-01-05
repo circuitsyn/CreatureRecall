@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Fish",
+    "image": "/assets/images/fish.png",
+    "class": "Chondrichthyes",
+    "fact": "There are over 30000 known species of fish.",
+    "link": "http://www.sciencekids.co.nz/sciencefacts/animals/fish.html"
+  },
+  {
+    "id": 2,
+    "name": "Hammerhead Shark",
+    "image": "/assets/images/hammerhead.png",
+    "class": "Chondrichthyes",
+    "fact": "Believe it or not, the hammerhead has the ability to sport a nice tan!",
+    "link": "http://justfunfacts.com/interesting-facts-about-hammerhead-sharks/"
+  },
+  {
+    "id": 3,
+    "name": "Squid",
+    "image": "/assets/images/squid.png",
+    "class": "Cephalopod",
+    "fact": "Giant Squid Have Eyes the Size of Frisbees.",
+    "link": "http://mentalfloss.com/article/63719/20-freaky-facts-about-giant-squid"
+  },
+  {
+    "id": 4,
+    "name": "Jellyfish",
+    "image": "/assets/images/jellyfish.png",
+    "class": "Scyphozoa",
+    "fact": "Jellyfish can clone themselves",
+    "link": "https://www.treehugger.com/natural-sciences/14-fascinating-facts-about-jellyfish.html"
+  },
+  {
+    "id": 5,
+    "name": "Molla Molla",
+    "image": "/assets/images/sunfish.png",
+    "class": "Chondrichthyes",
+    "fact": "They can dive up to 2600 feet. ",
+    "link": "http://mentalfloss.com/article/64197/14-fascinating-facts-about-ocean-sunfish"
+  },
+  {
+    "id": 6,
+    "name": "Orca",
+    "image": "/assets/images/orca.png",
+    "class": "Mammalia",
+    "fact": "The average-sized orca may eat about 227 kilograms (500lbs) of food a day!",
+    "link": "https://www.natgeokids.com/uk/discover/animals/sea-life/killer-whale-facts/"
+  },
+  {
+    "id": 7,
+    "name": "Oyster",
+    "image": "/assets/images/oyster.png",   
+    "class": "Bivalvia",
+    "fact": "Oysters have the ability to change their sex.",
+    "link": "https://oysterrecovery.org/oysters-101/fun-facts/"
+  },
+  {
+    "id": 8,
+    "name": "Shrimp",
+    "image": "/assets/images/shrimp.png",
+    "class": "Branchiopoda",
+    "fact": "Shrimp trawling (a.k.a. 'bulldozing the ocean') destroys four pounds of incidental bycatch for every pound of shrimp taken.",
+    "link": "https://www.sportdiver.com/photos/cool-facts-about-shrimp#page-4"
+  },
+  {
+    "id": 9,
+    "name": "Octopus",
+    "image": "/assets/images/octopus.png",
+    "class": "Cephalopod",
+    "fact": "Octopuses have three hearts and blue blood.",
+    "link": "https://www.huffingtonpost.com/2015/07/01/octopus-facts_n_7692438.html"
+  },
+  {
+    "id": 10,
+    "name": "Dugong",
+    "image": "/assets/images/sea-cow.png",   
+    "class": "Mammalia",
+    "fact": "The graceful swimming of dugongs is what inspired stories of sirens and mermaids. However, they don’t look anything like the tales.",
+    "link": "http://tonsoffacts.com/23-fun-interesting-facts-dugongs/"
+  },
+  {
+    "id": 11,
+    "name": "Sea Turtle",
+    "image": "/assets/images/turtle.png",
+    "class": "Reptilia",
+    "fact": "Sea turtles have been around since the time of dinosaurs!",
+    "link": "https://www.huffingtonpost.com/2014/06/18/sea-turtle-facts_n_5505508.html"
+  },
+  {
+    "id": 12,
+    "name": "Narwwhal",
+    "image": "/assets/images/narwhal.png",
+    "class": "Mammalia",
+    "fact": "Its tusk is actually a tooth",
+    "link": "http://mentalfloss.com/article/55994/7-fascinating-facts-about-narwhals"
+  }
+]
