@@ -3,9 +3,6 @@ import Cards from "../Card/card";
 import creaturesData from "../../creatures.json";
 
 
-
-
-
 function CardComponents() {
         const creatureComponents = creaturesData.map(creature =>
             <Cards key={creature.id} name={creature.name} image={creature.image} class={creature.class} fact={creature.fact} link={creature.link} />)
