@@ -4,7 +4,7 @@
     "name": "Fish",
     "image": "/assets/images/fish.png",
     "class": "Chondrichthyes",
-    "fact": "There are over 30000 known species of fish.",
+    "fact": "There are over 30,000 known species of fish.",
     "link": "http://www.sciencekids.co.nz/sciencefacts/animals/fish.html"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Orca",
     "image": "/assets/images/orca.png",
     "class": "Mammalia",
-    "fact": "The average-sized orca may eat about 227 kilograms (500lbs) of food a day!",
+    "fact": "The average-sized orca may eat ~500lbs of food a day!",
     "link": "https://www.natgeokids.com/uk/discover/animals/sea-life/killer-whale-facts/"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Shrimp",
     "image": "/assets/images/shrimp.png",
     "class": "Branchiopoda",
-    "fact": "Shrimp trawling (a.k.a. 'bulldozing the ocean') destroys four pounds of incidental bycatch for every pound of shrimp taken.",
+    "fact": "Shrimp trawling destroys 4lbs of bycatch for every 1lb of shrimp.",
     "link": "https://www.sportdiver.com/photos/cool-facts-about-shrimp#page-4"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Dugong",
     "image": "/assets/images/sea-cow.png",   
     "class": "Mammalia",
-    "fact": "The graceful swimming of dugongs is what inspired stories of sirens and mermaids. However, they don’t look anything like the tales.",
+    "fact": "Dugongs are what inspired stories of sirens and mermaids.",
     "link": "http://tonsoffacts.com/23-fun-interesting-facts-dugongs/"
   },
   {

@@ -1,6 +1,15 @@
 .cardImg {
     height: auto;
-    width: 10rem;
+    width: 10vw;
     margin: auto;
-    padding: 7% 2% 7% 2%;
+    padding: 5% 2% 5% 2%;
+}
+
+.card-body {
+    padding: 1%;
+}
+
+.card {
+    padding: 0.5%;
+    /* height: 50px; */
 }

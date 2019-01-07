@@ -1,13 +1,17 @@
-import React from "react";
+import React, { Component } from 'react';
 import "./style.css";
 
 
 
-function Card(props) {
-    console.log(props);
+class Card extends Component {
+    state = {
+        clicked: false
+    };
 
+    render() {
+        const props = this.props;
+        console.log(this.props);
     return (
-    
         <div class="card col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 m-3">
             <img class="card-img-top cardImg" src={props.image} alt="Card image cap" />
             <div class="card-body">
@@ -20,6 +24,7 @@ function Card(props) {
     
        
     );
+} 
 }
 
 export default Card;
