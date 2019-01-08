@@ -33,7 +33,7 @@ class mainGame extends Component {
         return (
         <div>
             <NavBar score={this.state.score} topScore={this.state.topScore} />
-            <Jumbo />
+            <Jumbo message={this.state.message}/>
             <div class="container-fluid">
                 <div class="row d-flex justify-content-center">
                     {this.state.creaturesData.map(creature =>
