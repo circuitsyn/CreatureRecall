@@ -3,11 +3,10 @@ import "./style.css";
 import brandLogo from "./Crab.png";
 
 function NavBar(props) {
-    console.log(props);
-
+    
     return (
     <div>
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light fixed-top">
             <a class="navbar-brand font-weight-bolder" href="/">
             <img class="brandLogo mr-2" src={brandLogo} alt="nav bar brand logo crab image" />
             Creature Recall
@@ -15,10 +14,10 @@ function NavBar(props) {
 
             <div class="float-right d-flex justify-content-end">
                 <h3 class="ml-2 mr-2">Score: </h3>
-                <button type="button" class="btn btn-primary ml-2 mr-2 font-weight-bolder">0</button>
+                <button type="button" class="btn btn-primary ml-2 mr-2 font-weight-bolder">{props.score}</button>
                 <h3 class="ml-2 mr-2">|</h3>
                 <h3 class="ml-2 mr-2">Top Score: </h3>
-                <button type="button" class="btn btn-primary ml-2 mr-2 font-weight-bolder">0</button>
+                <button type="button" class="btn btn-primary ml-2 mr-2 font-weight-bolder">{props.topScore}</button>
             </div>
             
         </nav>

@@ -1,23 +1,48 @@
-import React from "react";
+import React, { Component } from "react";
+import Card from "../Card/card";
+import creaturesData from "../../creatures.json";
+import Jumbo from '../JumboGreeting/JumboGreeting';
+import NavBar from '../NavBar/NavBar';
 import "./style.css";
-import CardComponents from "../CardComponents/CardComponents";
 
-//import json array
-//function that loops 
-// function shuffle(){
-//     return props=
-// }
+class mainGame extends Component {
 
-// shuffle()
+    state = {
+        creaturesData,
+        score: 0,
+        topScore: 0,
+        message: "Start by clicking any of the images below!"
+    };
 
-function Main(props) {
-    console.log(props);
+    //upon page load run the shuffle function
+    componentDidMount() {
+        this.setState({ creaturesData: this.shuffleData(this.state.creaturesData)})
+    }
 
-    return (      
-       <CardComponents  />
-    );
+    //function to shuffle data
+    shuffleData = (creaturesData) => {
+        creaturesData.sort(function(){return 0.5 - Math.random()}); 
+        console.log("I'm shuffled!")
+        return creaturesData;
+    }
+    
+    
+
+    render() {
+        
+        return (
+        <div>
+            <NavBar score={this.state.score} topScore={this.state.topScore} />
+            <Jumbo />
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-center">
+                    {this.state.creaturesData.map(creature =>
+                    <Card key={creature.id} name={creature.name} image={creature.image} class={creature.class} fact={creature.fact} link={creature.link} />)}
+                </div>    
+            </div>  
+        </div> 
+        );
+    }
 }
 
-export default Main;
-
-
+export default mainGame;

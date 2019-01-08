@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import "./style.css";
 
 
+
 function update(e) {
     e.preventDefault();
+    
     console.log("update");
 }
 
@@ -14,10 +16,10 @@ class Card extends Component {
     };
 
     render() {
-        const props = this.props;
+        let props = this.props;
         console.log(this.props);
     return (
-        <div onClick={update} class="card col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 m-3">
+        <div onClick={() => props.handleClick(props.id)} aria-label="click item" class="card col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 m-3">
             <img class="card-img-top cardImg" src={props.image} alt="Card image cap" />
             <div class="card-body">
                 <h5 class="card-title"><strong>Name: </strong> {props.name}</h5>

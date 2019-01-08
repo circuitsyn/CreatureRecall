@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Jumbo(props) {
-    console.log(props);
+function Jumbo() {
 
     return (
     <div>
