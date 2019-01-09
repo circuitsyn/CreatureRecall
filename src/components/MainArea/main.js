@@ -20,10 +20,14 @@ class mainGame extends Component {
     }
 
     //function to shuffle data
-    shuffleData = (creaturesData) => {
-        creaturesData.sort(function(){return 0.5 - Math.random()}); 
+    shuffleData = () => {
+        let newArr = creaturesData.sort(function(){return 0.5 - Math.random()}); 
         console.log("I'm shuffled!")
-        return creaturesData;
+        return newArr;
+    }
+
+    clickListener = () => {
+        this.setState({creaturesData: this.shuffleData(this.state.creaturesData)});
     }
     
     
@@ -37,7 +41,7 @@ class mainGame extends Component {
             <div class="container-fluid">
                 <div class="row d-flex justify-content-center">
                     {this.state.creaturesData.map(creature =>
-                    <Card key={creature.id} name={creature.name} image={creature.image} class={creature.class} fact={creature.fact} link={creature.link} />)}
+                    <Card handleClick={this.clickListener} key={creature.id} name={creature.name} image={creature.image} class={creature.class} fact={creature.fact} link={creature.link} />)}
                 </div>    
             </div>  
         </div> 

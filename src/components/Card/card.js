@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 import "./style.css";
 
-
-
-function update(e) {
-    e.preventDefault();
-    
-    console.log("update");
-}
-
-
 class Card extends Component {
     state = {
         clicked: false

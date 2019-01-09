@@ -2,97 +2,109 @@
   {
     "id": 1,
     "name": "Fish",
-    "image": "/assets/images/fish.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/fish.png",
     "class": "Chondrichthyes",
     "fact": "There are over 30,000 known species of fish.",
-    "link": "http://www.sciencekids.co.nz/sciencefacts/animals/fish.html"
+    "link": "http://www.sciencekids.co.nz/sciencefacts/animals/fish.html",
+    "clicked": false
   },
   {
     "id": 2,
     "name": "Hammerhead Shark",
-    "image": "/assets/images/hammerhead.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/hammerhead.png",
     "class": "Chondrichthyes",
     "fact": "Believe it or not, the hammerhead has the ability to sport a nice tan!",
-    "link": "http://justfunfacts.com/interesting-facts-about-hammerhead-sharks/"
+    "link": "http://justfunfacts.com/interesting-facts-about-hammerhead-sharks/",
+    "clicked": false
   },
   {
     "id": 3,
     "name": "Squid",
-    "image": "/assets/images/squid.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/squid.png",
     "class": "Cephalopod",
     "fact": "Giant Squid Have Eyes the Size of Frisbees.",
-    "link": "http://mentalfloss.com/article/63719/20-freaky-facts-about-giant-squid"
+    "link": "http://mentalfloss.com/article/63719/20-freaky-facts-about-giant-squid",
+    "clicked": false
   },
   {
     "id": 4,
     "name": "Jellyfish",
-    "image": "/assets/images/jellyfish.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/jellyfish.png",
     "class": "Scyphozoa",
     "fact": "Jellyfish can clone themselves",
-    "link": "https://www.treehugger.com/natural-sciences/14-fascinating-facts-about-jellyfish.html"
+    "link": "https://www.treehugger.com/natural-sciences/14-fascinating-facts-about-jellyfish.html",
+    "clicked": false
   },
   {
     "id": 5,
     "name": "Molla Molla",
-    "image": "/assets/images/sunfish.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/sunfish.png",
     "class": "Chondrichthyes",
     "fact": "They can dive up to 2600 feet. ",
-    "link": "http://mentalfloss.com/article/64197/14-fascinating-facts-about-ocean-sunfish"
+    "link": "http://mentalfloss.com/article/64197/14-fascinating-facts-about-ocean-sunfish",
+    "clicked": false
   },
   {
     "id": 6,
     "name": "Orca",
-    "image": "/assets/images/orca.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/orca.png",
     "class": "Mammalia",
     "fact": "The average-sized orca may eat ~500lbs of food a day!",
-    "link": "https://www.natgeokids.com/uk/discover/animals/sea-life/killer-whale-facts/"
+    "link": "https://www.natgeokids.com/uk/discover/animals/sea-life/killer-whale-facts/",
+    "clicked": false
   },
   {
     "id": 7,
     "name": "Oyster",
-    "image": "/assets/images/oyster.png",   
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/oyster.png",   
     "class": "Bivalvia",
     "fact": "Oysters have the ability to change their sex.",
-    "link": "https://oysterrecovery.org/oysters-101/fun-facts/"
+    "link": "https://oysterrecovery.org/oysters-101/fun-facts/",
+    "clicked": false
   },
   {
     "id": 8,
     "name": "Shrimp",
-    "image": "/assets/images/shrimp.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/shrimp.png",
     "class": "Branchiopoda",
     "fact": "Shrimp trawling destroys 4lbs of bycatch for every 1lb of shrimp.",
-    "link": "https://www.sportdiver.com/photos/cool-facts-about-shrimp#page-4"
+    "link": "https://www.sportdiver.com/photos/cool-facts-about-shrimp#page-4",
+    "clicked": false
   },
   {
     "id": 9,
     "name": "Octopus",
-    "image": "/assets/images/octopus.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/octopus.png",
     "class": "Cephalopod",
     "fact": "Octopuses have three hearts and blue blood.",
-    "link": "https://www.huffingtonpost.com/2015/07/01/octopus-facts_n_7692438.html"
+    "link": "https://www.huffingtonpost.com/2015/07/01/octopus-facts_n_7692438.html",
+    "clicked": false
   },
   {
     "id": 10,
     "name": "Dugong",
-    "image": "/assets/images/sea-cow.png",   
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/sea-cow.png",   
     "class": "Mammalia",
     "fact": "Dugongs are what inspired stories of sirens and mermaids.",
-    "link": "http://tonsoffacts.com/23-fun-interesting-facts-dugongs/"
+    "link": "http://tonsoffacts.com/23-fun-interesting-facts-dugongs/",
+    "clicked": false
   },
   {
     "id": 11,
     "name": "Sea Turtle",
-    "image": "/assets/images/turtle.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/turtle.png",
     "class": "Reptilia",
     "fact": "Sea turtles have been around since the time of dinosaurs!",
-    "link": "https://www.huffingtonpost.com/2014/06/18/sea-turtle-facts_n_5505508.html"
+    "link": "https://www.huffingtonpost.com/2014/06/18/sea-turtle-facts_n_5505508.html",
+    "clicked": false
   },
   {
     "id": 12,
     "name": "Narwwhal",
-    "image": "/assets/images/narwhal.png",
+    "image": "https://circuitsyn.github.io/CreatureRecall/assets/images/narwhal.png",
     "class": "Mammalia",
     "fact": "Its tusk is actually a tooth",
-    "link": "http://mentalfloss.com/article/55994/7-fascinating-facts-about-narwhals"
+    "link": "http://mentalfloss.com/article/55994/7-fascinating-facts-about-narwhals",
+   "clicked": false
   }
 ]
