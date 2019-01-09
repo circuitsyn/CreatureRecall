@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/CreatureRecall/static/js/runtime~main.24661e77.js"
   },
   {
-    "revision": "78c9b0634838917a6926",
-    "url": "/CreatureRecall/static/js/main.78c9b063.chunk.js"
+    "revision": "6e158702a89a860d8aa8",
+    "url": "/CreatureRecall/static/js/main.6e158702.chunk.js"
   },
   {
     "revision": "f9dd97d88ab08ebf23ed",
     "url": "/CreatureRecall/static/js/1.f9dd97d8.chunk.js"
   },
   {
-    "revision": "78c9b0634838917a6926",
+    "revision": "6e158702a89a860d8aa8",
     "url": "/CreatureRecall/static/css/main.3a7772ef.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/CreatureRecall/static/css/1.cd13f629.chunk.css"
   },
   {
-    "revision": "f676d13561c7faa73f17a85b2a1e1408",
+    "revision": "e720d54ccd416ca1d3b75619b2b8ac0c",
     "url": "/CreatureRecall/index.html"
   }
 ];
