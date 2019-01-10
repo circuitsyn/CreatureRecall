@@ -1,7 +1,7 @@
 {
   "main.css": "/CreatureRecall/static/css/main.3a7772ef.chunk.css",
-  "main.js": "/CreatureRecall/static/js/main.6e158702.chunk.js",
-  "main.js.map": "/CreatureRecall/static/js/main.6e158702.chunk.js.map",
+  "main.js": "/CreatureRecall/static/js/main.381354b7.chunk.js",
+  "main.js.map": "/CreatureRecall/static/js/main.381354b7.chunk.js.map",
   "static/css/1.cd13f629.chunk.css": "/CreatureRecall/static/css/1.cd13f629.chunk.css",
   "static/js/1.f9dd97d8.chunk.js": "/CreatureRecall/static/js/1.f9dd97d8.chunk.js",
   "static/js/1.f9dd97d8.chunk.js.map": "/CreatureRecall/static/js/1.f9dd97d8.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/media/style.css": "/CreatureRecall/static/media/underwaterBG2.dcc6d5c8.jpg",
   "static/css/1.cd13f629.chunk.css.map": "/CreatureRecall/static/css/1.cd13f629.chunk.css.map",
   "index.html": "/CreatureRecall/index.html",
-  "precache-manifest.ad790c3c33295f9bf3aefec765aa44bc.js": "/CreatureRecall/precache-manifest.ad790c3c33295f9bf3aefec765aa44bc.js",
+  "precache-manifest.9835ee31566e5be9722d7b089d7ca4db.js": "/CreatureRecall/precache-manifest.9835ee31566e5be9722d7b089d7ca4db.js",
   "service-worker.js": "/CreatureRecall/service-worker.js"
 }
