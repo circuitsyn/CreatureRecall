@@ -23,6 +23,7 @@ class mainGame extends Component {
     shuffleData = () => {
         let newArr = creaturesData.sort(function(){return 0.5 - Math.random()}); 
         console.log("I'm shuffled!")
+        console.log("newArr: ", newArr);
         return newArr;
     }
 
