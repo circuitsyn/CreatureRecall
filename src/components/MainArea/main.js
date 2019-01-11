@@ -20,6 +20,15 @@ class mainGame extends Component {
         this.setState({ creaturesData: this.shuffleData(this.state.creaturesData)})
     }
 
+    resetClicked = (shallowCopy) => {
+        console.log('reset shallowcopy :', shallowCopy)
+        for (let i = 0; i < shallowCopy.length; i++) {
+            shallowCopy[i].clicked = false;
+        }
+            
+            console.log('reset complete shallowcopy :', shallowCopy)
+        return shallowCopy;
+    };
 
     //function to shuffle data
     shuffleData = () => {
@@ -57,9 +66,13 @@ class mainGame extends Component {
                 else if (clickCheck) {
                     console.log("I'm already clicked!")
                     // this.state.score = 0;
+                    this.resetClicked(shallowCopy);
+                    
                     this.setState({
                         score: 0,
-                        message: "You guessed incorrectly!"
+                        message: "You guessed incorrectly!",
+                        creaturesData: shallowCopy
+
                     })
                 }
             }
