@@ -1,4 +1,4 @@
-# Creature Recall
+# Creature Recall :arrow_upper_right::octopus::tropical_fish::fish::turtle::dolphin::blowfish::whale::ocean:
 ###### Built with  JS, React, Bootstrap, CSS, HTML, Node.JS
 
 This game was built as a demo app for react. It demonstrates the use of React for a fast loading game and how you cna manipulate game logic using class and functional components.
@@ -8,4 +8,4 @@ The goal of the game it to click on a card with out repating. It is a game of me
 
 #### *Bonus: Make sure to to check out the fun facts for each underwater creature!*
 
-![Clicky Image Screenshot]()
+![Clicky Image Screenshot](https://github.com/circuitsyn/CreatureRecall/blob/master/public/assets/images/clickGame.PNG)
