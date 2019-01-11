@@ -5,7 +5,7 @@ import $ from 'jquery';
 function Card (props) {
     
     return (
-        <div onClick={() => props.handleClick(props.id)} clickstatus={props.clickstatus} aria-label="click item" class="card col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 m-3">
+        <div onClick={() => props.handleClick(props.id)} clickstatus={props.clickstatus} aria-label="click item" class="card col-6 col-sm-3 col-md-3 col-lg-3 col-xl-2 m-3">
             <img class="card-img-top cardImg" src={props.image} alt="Card image cap" />
             <div class="card-body">
                 <h5 class="card-title"><strong>Name: </strong> {props.name}</h5>

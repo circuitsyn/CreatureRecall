@@ -6,7 +6,7 @@ function NavBar(props) {
     
     return (
     <div>
-        <nav class="navbar navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand font-weight-bolder" href="/">
             <img class="brandLogo mr-2" src={brandLogo} alt="nav bar brand logo crab image" />
             Creature Recall
