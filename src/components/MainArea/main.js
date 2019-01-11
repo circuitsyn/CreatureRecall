@@ -94,7 +94,7 @@ class mainGame extends Component {
     render() {
         
         return (
-        <div>
+        <div class="mainSec">
             <NavBar score={this.state.score} topScore={this.state.topScore} />
             <Jumbo message={this.state.message}/>
             <div class="container-fluid">
