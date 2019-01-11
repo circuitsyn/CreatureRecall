@@ -5,7 +5,6 @@ import Jumbo from '../JumboGreeting/JumboGreeting';
 import NavBar from '../NavBar/NavBar';
 import "./style.css";
 
-
 class mainGame extends Component {
 
     state = {
@@ -35,8 +34,6 @@ class mainGame extends Component {
 
     //function triggered from clicking on card
     clickListener = (id) => {
-        console.log('id coming in from click: ', id);
-
 
         let shallowCopy = this.state.creaturesData;
         console.log('shallowCopy: ', shallowCopy)
@@ -49,16 +46,21 @@ class mainGame extends Component {
                 //check to see if card has been clicked before and execute actions based on results
                 if (!clickCheck){
                     console.log("you haven't been clicked!");
-                    this.state.score++;
                     shallowCopy[i].clicked = true;
                     this.setState({
-                        creaturesData: shallowCopy
+                        creaturesData: shallowCopy,
+                        message: "You guessed correctly!",
+                        score: ++this.state.score
                     });
                 } 
                 //alternative if the card has been clicked before and run actions as a result
                 else if (clickCheck) {
                     console.log("I'm already clicked!")
-                    this.state.score = 0;
+                    // this.state.score = 0;
+                    this.setState({
+                        score: 0,
+                        message: "You guessed incorrectly!"
+                    })
                 }
             }
         }
