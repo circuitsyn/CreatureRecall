@@ -1,7 +1,7 @@
 {
   "main.css": "/CreatureRecall/static/css/main.f6c956e7.chunk.css",
-  "main.js": "/CreatureRecall/static/js/main.24b28c3b.chunk.js",
-  "main.js.map": "/CreatureRecall/static/js/main.24b28c3b.chunk.js.map",
+  "main.js": "/CreatureRecall/static/js/main.eb9b25d9.chunk.js",
+  "main.js.map": "/CreatureRecall/static/js/main.eb9b25d9.chunk.js.map",
   "static/css/1.cd13f629.chunk.css": "/CreatureRecall/static/css/1.cd13f629.chunk.css",
   "static/js/1.a200d02a.chunk.js": "/CreatureRecall/static/js/1.a200d02a.chunk.js",
   "static/js/1.a200d02a.chunk.js.map": "/CreatureRecall/static/js/1.a200d02a.chunk.js.map",
@@ -12,6 +12,6 @@
   "static/media/style.css": "/CreatureRecall/static/media/whale.24f490c9.gif",
   "static/css/1.cd13f629.chunk.css.map": "/CreatureRecall/static/css/1.cd13f629.chunk.css.map",
   "index.html": "/CreatureRecall/index.html",
-  "precache-manifest.a8fb14e0e87b3317d9d0f4b74db9c9a3.js": "/CreatureRecall/precache-manifest.a8fb14e0e87b3317d9d0f4b74db9c9a3.js",
+  "precache-manifest.29cff75b6528223c8fd7024cb3096481.js": "/CreatureRecall/precache-manifest.29cff75b6528223c8fd7024cb3096481.js",
   "service-worker.js": "/CreatureRecall/service-worker.js"
 }
